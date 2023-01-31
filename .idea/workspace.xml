@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a6adb5-c681-44b9-acb9-ef2190ed0797" name="Changes" comment="add tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/UserOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Tokens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/UserRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/LoginPage.java" afterDir="false" />
+    <list default="true" id="22a6adb5-c681-44b9-acb9-ef2190ed0797" name="Changes" comment="add com + model&#10;add pom&#10;add tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -41,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Praktikum/Diplom/Diplom_3/src/test/java/pom",
+    "last_opened_file_path": "C:/Praktikum/Diplom/Diplom_3/src/test/java/tests",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -49,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Praktikum\Diplom\Diplom_3\src\test\java\tests" />
       <recent name="C:\Praktikum\Diplom\Diplom_3\src\test\java\pom" />
       <recent name="C:\Praktikum\Diplom\Diplom_3\src\main\java\com" />
       <recent name="C:\Praktikum\Diplom\Diplom_3\src\main\java\com\model" />
@@ -56,6 +55,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Praktikum\Diplom\Diplom_3\src\main\java\com\model" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean test" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.All in Diplom_3 (1)">
     <configuration name="All in Diplom_3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -97,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674548218070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add com + model&#10;add pom&#10;add tests">
+      <created>1675147196112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675147196112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pom" />
+    <MESSAGE value="add com + model&#10;add pom&#10;add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add com + model&#10;add pom&#10;add tests" />
   </component>
 </project>

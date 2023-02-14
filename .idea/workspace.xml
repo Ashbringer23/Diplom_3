@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a6adb5-c681-44b9-acb9-ef2190ed0797" name="Changes" comment="add com + model&#10;add pom&#10;add tests">
+    <list default="true" id="463b2eb3-870b-41f3-b9cd-fa228cddc0dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ConstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PersonalAreaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PersonalAreaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -29,8 +45,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2KipLOA7T5lEiETtRruYsfn42AU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="29Ah0riAK5VpM695LvOpbiOZbap" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,41 +54,82 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Praktikum/Diplom/Diplom_3/src/test/java/tests",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Praktikum\Diplom\Diplom_3\src\test\java\tests" />
-      <recent name="C:\Praktikum\Diplom\Diplom_3\src\test\java\pom" />
-      <recent name="C:\Praktikum\Diplom\Diplom_3\src\main\java\com" />
-      <recent name="C:\Praktikum\Diplom\Diplom_3\src\main\java\com\model" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Praktikum\Diplom\Diplom_3\src\main\java\com\model" />
+      <recent name="G:\workspace\yandex\QA-java-diplom-3\src" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
-      <command value="mvn clean test" />
+      <command value="mvn test" />
+      <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Diplom_3 (1)">
-    <configuration name="All in Diplom_3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+  <component name="RunManager" selected="JUnit.YandexTest.checkChooseCityDropdown">
+    <configuration name="ConstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum-web-diploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ConstructorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Diplom_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
+    <configuration name="IngredientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum-web-diploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.IngredientsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YandexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum-web-diploma" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YandexTest.checkChooseCityDropdown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum-web-diploma" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="METHOD_NAME" value="checkChooseCityDropdown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests in praktikum-web-diploma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="praktikum-web-diploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,33 +137,36 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Diplom_3 (1)" />
-        <item itemvalue="JUnit.All in Diplom_3" />
+        <item itemvalue="JUnit.YandexTest.checkChooseCityDropdown" />
+        <item itemvalue="JUnit.YandexTest" />
+        <item itemvalue="JUnit.IngredientsTest" />
+        <item itemvalue="JUnit.tests in praktikum-web-diploma" />
+        <item itemvalue="JUnit.ConstructorTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22a6adb5-c681-44b9-acb9-ef2190ed0797" name="Changes" comment="" />
-      <created>1674467202344</created>
+      <changelist id="463b2eb3-870b-41f3-b9cd-fa228cddc0dd" name="Changes" comment="" />
+      <created>1652561578375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674467202344</updated>
+      <updated>1652561578375</updated>
     </task>
     <task id="LOCAL-00001" summary="add pom">
-      <created>1674548218070</created>
+      <created>1652889414803</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1674548218070</updated>
+      <updated>1652889414803</updated>
     </task>
-    <task id="LOCAL-00002" summary="add com + model&#10;add pom&#10;add tests">
-      <created>1675147196112</created>
+    <task id="LOCAL-00002" summary="fix remarks">
+      <created>1653142247104</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1675147196112</updated>
+      <updated>1653142247104</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -125,7 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add pom" />
-    <MESSAGE value="add com + model&#10;add pom&#10;add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add com + model&#10;add pom&#10;add tests" />
+    <MESSAGE value="fix remarks" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix remarks" />
   </component>
 </project>

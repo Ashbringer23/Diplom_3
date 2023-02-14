@@ -28,7 +28,7 @@ public class RegistrationTest {
         LoginPage loginPage = page(LoginPage.class);
         loginPage.clickRegistrationButton();
         RegistrationPage registrationPage = page(RegistrationPage.class);
-        registrationPage.registrationUserData("archilol", "archilol@yandex.ru", "Zu6038910");
+        registrationPage.registrationUserData("archilol", "archilol777@gmail.com", "123456");
         registrationPage.clickRegistrationButton();
         Assert.assertTrue(loginPage.isRegistrationButtonExist());
     }
@@ -40,7 +40,7 @@ public class RegistrationTest {
         LoginPage loginPage = page(LoginPage.class);
         loginPage.clickRegistrationButton();
         RegistrationPage registrationPage = page(RegistrationPage.class);
-        registrationPage.registrationUserData("archilol", "archilol@yandex.ru", "Zu6038910");
+        registrationPage.registrationUserData("archilol", "archilol777@gmail.com", "12345");
         registrationPage.clickRegistrationButton();
         Assert.assertTrue(registrationPage.incorrectPasswordMessageVisible());
     }

@@ -26,7 +26,7 @@ public class PersonalAreaTest {
     public void personalAreaButtonTest() {
         mainPage.clickPersonalAreaButton();
         LoginPage loginPage = page(LoginPage.class);
-        loginPage.loginUserData("archilol@yandex.ru", "Zu6038910");
+        loginPage.loginUserData("archilol777@gmail.com", "123456");
         loginPage.clickLoginButton();
         mainPage.clickPersonalAreaButton();
         PersonalAreaPage personalAreaPage = page(PersonalAreaPage.class);

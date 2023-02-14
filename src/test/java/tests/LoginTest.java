@@ -26,7 +26,7 @@ public class LoginTest {
     public void loginButtonOnMainPageTest() {
         mainPage.clickLoginButton();
         LoginPage loginPage = page(LoginPage.class);
-        loginPage.loginUserData("archilol@yandex.ru", "Zu6038910");
+        loginPage.loginUserData("archilol777@gmail.com", "123456");
         loginPage.clickLoginButton();
         Assert.assertTrue(mainPage.isCheckoutButtonExist());
     }
@@ -36,7 +36,7 @@ public class LoginTest {
     public void personalAreaButtonTest() {
         mainPage.clickPersonalAreaButton();
         LoginPage loginPage = page(LoginPage.class);
-        loginPage.loginUserData("archilol@yandex.ru", "Zu6038910");
+        loginPage.loginUserData("archilol777@gmail.com", "123456");
         loginPage.clickLoginButton();
         Assert.assertTrue(mainPage.isCheckoutButtonExist());
     }
@@ -49,7 +49,7 @@ public class LoginTest {
         loginPage.clickRegistrationButton();
         RegistrationPage registrationPage = page(RegistrationPage.class);
         registrationPage.clickLoginButton();
-        loginPage.loginUserData("archilol@yandex.ru", "Zu6038910");
+        loginPage.loginUserData("archilol777@gmail.com", "123456");
         loginPage.clickLoginButton();
         Assert.assertTrue(mainPage.isCheckoutButtonExist());
     }
@@ -62,7 +62,7 @@ public class LoginTest {
         loginPage.clickForgotPasswordButton();
         ForgotPasswordPage forgotPasswordPage = page(ForgotPasswordPage.class);
         forgotPasswordPage.clickLoginButton();
-        loginPage.loginUserData("archilol@yandex.ru", "Zu6038910");
+        loginPage.loginUserData("archilol777@gmail.com", "123456");
         loginPage.clickLoginButton();
         Assert.assertTrue(mainPage.isCheckoutButtonExist());
     }
